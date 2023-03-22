@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vorskin</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+</head>
+<body>
+	<header>
+    	<div class="VOrskins">
+        	<VOrskins>
+            	<a href="./main.html">VOrskins</a>
+        	</VOrskins>
+    	</div>
+	</header>
+	<div class="navbar">
+    	<div class="logo">
+      	 
+    	</div>
+	</div>
+	<div class="blackbox">
+    	<blackbox></blackbox>
+    	<nav>
+        	<ul>
+            	<li><a href="./products.html">Products</a></li>
+            	<li><a href="./about.html">About</a></li>
+            	<li><a href="./Promotions.html">Promotions</a></li>
+            	<li><a href="./subscribe.html">Subscribe</a></li>
+        	</ul>
+    	</nav>
+	</div>
+	<div class = "regis">
+		Registration Form
+	</div>
+    <div class = container>
+        <form action = "./main.html" onsubmit = "return validateForm()">
+            Name
+            <input type = "text" placeholder = "Full Name" name = "" id = "full-name">
+            Email
+			<input type = "text" placeholder = "Email Address" name = "" id = "email-address">
+			Phone Number
+			<input type = "number" placeholder = "Phone Number" name = "" id = "phone-number">
+			preferences
+			<select name = "" id = "preferences-customer">
+				<option value = "">Select your preferences</option>
+				<option value = "skincare">Skin Care</option> 
+				<option value = "bodycare">Body Care</option> 
+			</select>
+			<div>
+				<input type = "checkbox" name = "" id = "receive-newsletter">
+				I agree to receive newsletter
+			</div>
+			<input type = "submit" value = "register">
+		</form>
+		<div id = errorMSG>
+			
+		</div>
+
+    </div>
+	<script src = "./subscribe.js"></script>
+</body>	
+</html>
